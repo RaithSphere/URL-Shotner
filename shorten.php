@@ -1,4 +1,12 @@
 <?php
+/**
+ *
+ *  * Copyright (c) 2020.
+ *  * Created By RaithSphere
+ *  * License: http://creativecommons.org/licenses/by/3.0/
+ *
+ */
+
 include_once ("includes/config.inc.php");
 
 $url_to_shorten = stripslashes(trim($_REQUEST['url']));

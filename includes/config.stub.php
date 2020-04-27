@@ -1,4 +1,11 @@
 <?php
+/**
+ *
+ *  * Copyright (c) 2020.
+ *  * Created By RaithSphere
+ *  * License: http://creativecommons.org/licenses/by/3.0/
+ *
+ */
 
 defined('ROOT_PATH') or
 define('ROOT_PATH', realpath(dirname(__FILE__) . '/..'));
