@@ -16,7 +16,10 @@ define('DB_NAME', '');
 define('DB_USER', '');
 define('DB_PASSWORD', '');
 define('DB_TABLE', '');
-
+define('BASE_HREF', 'http://' . $_SERVER['HTTP_HOST'] . '/');
+define('LIMIT_TO_IPS', [$_SERVER['REMOTE_ADDR']]);
+define('TRACK', true);
+define('REDIRECT_RESPONSE_CODE', '301 Moved Permanently');
 
 ini_set('error_reporting', 'true');
 error_reporting(E_ALL);
