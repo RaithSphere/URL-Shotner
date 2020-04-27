@@ -14,7 +14,7 @@ define('DB_TABLE', '');
 ini_set('error_reporting', 'true');
 error_reporting(E_ALL);
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/../classes/shorten.class.php");
+require_once($_SERVER['DOCUMENT_ROOT'] . "/classes/shorten.class.php");
 
 use shortner\short;
 $short = new short();
